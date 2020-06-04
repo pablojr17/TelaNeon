@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100.200.300.400.500.600.700.800.900');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-wrap: wrap;
+    background: #010615
+}
+.box {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #060c21;
+    margin: 40px;
+}
+.box:berofe {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: rgb(202, 128, 128);
+    z-index: -1;
+}
+.box:after {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: rgb(255, 255, 255);
+    z-index: -2;
+    filter: blur(40px);
+}
+
+.box:nth-child(1):after {
+    background: linear-gradient(255deg,#772aff,#010615,#2196F3);
+}
+
+.box:nth-child(2):after {
+    background: linear-gradient(255deg,#772aff,#010615,#2196F3);
+}
+
+.box:nth-child(3):after {
+    background: linear-gradient(255deg,#772aff,#010615,#2196F3);
+}
+.box .glass {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    display: block;
+    background: rgb(255,255,255,.1);
+    pointer-events: none;
+}
+
+.box .content {
+    padding: 20px;
+    color: #fff;
+}
+h2 {
+    text-align: center;
+}
+
+h2.title {
+    margin-top: -40px;
+    margin-bottom: 10px;
+
+}
+
+h2.titlle {
+    margin-top: -30px;
+    margin-bottom: 10px;
+
+}
