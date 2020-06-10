@@ -8,12 +8,33 @@
     font-family: 'Poppins', sans-serif;
 }
 body {
+    min-height: 100vh;
+    background: #010615
+}
+header {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1 {
+    color: white;
+}
+
+header img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 40px;
+    border-radius: 50%;
+}
+
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
     flex-wrap: wrap;
-    background: #010615
 }
 .box {
     position: relative;
