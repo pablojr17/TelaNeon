@@ -109,3 +109,26 @@ h2.titlle {
     margin-bottom: 10px;
 
 }
+
+footer {
+    background: rgb(255,255,255,.1);
+
+}
+
+footer .foo {
+    display: flex;
+    padding: 14px;
+    justify-content: center;
+    align-items: center;
+}
+
+footer img {
+    margin-right: 20px;
+    width: 45px;
+    height: 45px;
+}
+
+footer p {
+    color: rgb(235, 225, 225);
+    text-align: center;
+}
